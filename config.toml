@@ -50,6 +50,3 @@ paginate     = 10
     identifier = "blog"
     name       = "Blog"
     url        = "/posts"
-    identifier = "socials"
-    name       = "socials"
-    url        = "/socials"
