@@ -32,7 +32,7 @@ paginate     = 10
 [languages]
   [languages.en]
     title = "Martin Bowers"
-    subtitle = "A simple theme for Hugo"
+    subtitle = "Electronic Engineer"
     keywords = ""
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
     readOtherPosts = "Read other posts"
@@ -50,3 +50,6 @@ paginate     = 10
     identifier = "blog"
     name       = "Blog"
     url        = "/posts"
+    identifier = "socials"
+    name       = "socials"
+    url        = "/socials"
