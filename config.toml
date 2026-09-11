@@ -52,3 +52,8 @@ paginate     = 10
     identifier = "blog"
     name       = "blog"
     url        = "/posts"
+  [[menu.main]]
+    identifier = "cv"
+    name = "cv"
+    url = "/cv"
+    
