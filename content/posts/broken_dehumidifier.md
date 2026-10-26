@@ -29,9 +29,13 @@ Et voilà. I hadn't ever thought how a dehumidifier actually works, however afte
 
 My first port of call is to have a rummage around the electronics to see if anything looks bad or if any connections are loose. Having a little feel around the components, nothing appears to be broken or falling off (note: **unplug the unit before doing any disassembly or fiddling**). Turning on the unit again doesn't present anything obvious on the electronics either.
 
-After the unit is on for a minute or two, I hear a click and a low hum/rumble from the compressor and a few seconds later it clicks off again. 
+After the unit is on for a minute or two, I hear a click and a low hum/rumble from the compressor and a few seconds later it clicks off again. Okay, sounds like a relay is in control. There are relays on the board, one of which connects the compressor to mains. To check if it's the controller board incorrectly switching off the compressor, I soldered the switching terminals together as a way to continuously run the compressor.
 
-There are relays on the board, one of which connects the compressor to mains.
+
+
+A search of the compressor on the label quickly shows that it is [this](https://www.bossgoo.com/product-detail/r290-1-4hp-chest-freezer-refrigerator-64962443.html) model, using R290 refrigerant gas. 
+
+
 
 [image of circuit board]
 
