@@ -9,10 +9,29 @@ As an engineer by trade and a monthly volunteer at the local [Repair Café](http
 
 [image of whole unit]
 
-So there it is. A HOMCOM 20L/Day 6000mL dehumidifier. I had actually been thinking of getting one, as now it's becoming a bit nippy in the UK, it might probably help when drying clothes indoors. And this one cost over £100 when new! Lucky me (if it works...)!
+So there it is. A HOMCOM 20L/Day 6000mL dehumidifier. I had actually been thinking of getting one, as now it's becoming a bit nippy in the UK, and it might probably help when drying clothes indoors. And this one cost over £100 when new! Lucky me (if it works...)!
 
 Before even powering it on, I went for the first most obvious check: the fuse. After popping open the little compartment, I tested it by holding my finger on one side and tap around on my phone screen with the other side. My phone responded to the touches, meaning the fuse was okay. While replacing the fuse would've been an easy fix, I was almost looking forward to having a dive around the internal electronics. But, before dismantling the unit, I plugged it into the wall to see if it actually did work or how it was actually broken (something I have been guilty of forgetting to do at Repair Cafés).
 
 [image of top screen turning on]
 
-Success? Was the previous owner doing something wrong, or does it just magically work again? It's something I see often at Repair Cafés, where devices start magically working after being scared of being disassembled. Sort of like humans, I suppose. 
+Success? Was the previous owner doing something wrong, or does it just magically work again? It's something I see often at Repair Cafés, where devices start magically working after being threatened with disassembly. Sort of like humans, I suppose. 
+
+I decided to leave it running for over an hour in a room with damp washing. The display appeared to show a value which is probably the humidity; I had no way to check if the value was correct, but it seemed plausible. I switched between "DRY" mode, which was somehow best for drying clothes, and the standard dehumidify mode, which defaults to 40%RH. After over an hour, there was not a single drop of water collected. Time to open it up.
+
+[images?]
+
+By removing the screws around the frame, I was able to pry off the front plastic panel and a few plastic clips enjoyed it so much they decided to thank me by pinging under my desk, never to be seen again. 
+
+[image of bare front]
+
+Et voilà. I hadn't ever thought how a dehumidifier actually works, however after looking at the insides and consulting some YouTube videos it is surprisingly simple. The big black sphere at the bottom is the compressor; it uses refrigerant gas to perform cooling, which is key for dehumidification. We all know when you blow warm air on a cold surface it creates condensation. A dehumidifier does that at a large scale by cooling the heat-sink stack so much that the surrounding air forms condensation, even if the air is only 10°C. The condensation is then collected in a tank at the bottom of the unit, which must be emptied periodically.
+
+My first port of call is to have a rummage around the electronics to see if anything looks bad or if any connections are loose. Having a little feel around the components, nothing appears to be broken or falling off (note: **unplug the unit before doing any disassembly or fiddling**). Turning on the unit again doesn't present anything obvious on the electronics either.
+
+After the unit is on for a minute or two, I hear a click and a low hum/rumble from the compressor and a few seconds later it clicks off again. 
+
+There are relays on the board, one of which connects the compressor to mains.
+
+[image of circuit board]
+
